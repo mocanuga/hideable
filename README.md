@@ -5,7 +5,7 @@ Hides a DIV elemtent when not clicked inside it
 
 Usage:
 
-1. Without callbacks
+Without callbacks
 
 ```
 $(function() {
@@ -16,7 +16,7 @@ $(function() {
 });
 ```
 
-2. With callbacks
+With callbacks
 
 ```
 $(function() {
