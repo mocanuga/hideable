@@ -7,16 +7,19 @@ Usage:
 
 1. Without callbacks
 
-`$(function() {
+```
+$(function() {
   var div = $('.myHideableDiv');
   $('a.myLink').on('click', function(e) {
     div.show().hideable();
   });
-});`
+});
+```
 
 2. With callbacks
 
-`$(function() {
+```
+$(function() {
   var div = $('.myHideableDiv');
   $('a.myLink').on('click', function(e) {
     div.show().hideable({
@@ -30,4 +33,5 @@ Usage:
       }
     });
   });
-});`
+});
+```
